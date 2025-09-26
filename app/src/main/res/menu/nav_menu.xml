@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_livro"
+            android:icon="@drawable/baseline_book_24"
+            android:title="Livros" />
+
+        <item
+            android:id="@+id/nav_beleza"
+            android:icon="@drawable/beauty"
+            android:title="Cuidado Pessola" />
+
+        <item
+            android:id="@+id/nav_casa"
+            android:icon="@drawable/chair"
+            android:title="Casa e Decoração" />
+
+        <item
+            android:id="@+id/nav_eletronico"
+            android:icon="@drawable/computer"
+            android:title="Eletrônicos" />
+
+        <item
+            android:id="@+id/nav_alimento"
+            android:icon="@drawable/food"
+            android:title="Alimentos" />
+
+        <item
+            android:id="@+id/nav_brinquedo"
+            android:icon="@drawable/toy"
+            android:title="Brinquedos" />
+
+    </group>
+</menu>
