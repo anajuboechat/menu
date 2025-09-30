@@ -3,18 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group
-        android:checkableBehavior="single">
+    <group android:checkableBehavior="single">
 
         <item
-            android:id="@+id/nav_livro"
+            android:id="@+id/nav_livros"
             android:icon="@drawable/baseline_book_24"
             android:title="Livros" />
 
         <item
             android:id="@+id/nav_beleza"
             android:icon="@drawable/beauty"
-            android:title="Cuidado Pessola" />
+            android:title="Cuidado Pessoal" />
 
         <item
             android:id="@+id/nav_casa"
@@ -27,12 +26,12 @@
             android:title="Eletrônicos" />
 
         <item
-            android:id="@+id/nav_alimento"
+            android:id="@+id/nav_alimentos"
             android:icon="@drawable/food"
             android:title="Alimentos" />
 
         <item
-            android:id="@+id/nav_brinquedo"
+            android:id="@+id/nav_brinquedos"
             android:icon="@drawable/toy"
             android:title="Brinquedos" />
 
