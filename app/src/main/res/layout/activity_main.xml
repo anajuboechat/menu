@@ -8,12 +8,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Conteúdo principal -->
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <!-- AppBar / Toolbar -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="Ana Júlia Boechat Rodrigues"/>
+
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
@@ -22,13 +27,12 @@
             android:elevation="4dp"
             android:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
-        <!-- Container dos fragments -->
+
         <FrameLayout
             android:id="@+id/fragment_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-        <!-- BottomAppBar -->
         <com.google.android.material.bottomappbar.BottomAppBar
             android:id="@+id/bottomAppBar"
             android:layout_width="match_parent"
@@ -52,7 +56,6 @@
         </com.google.android.material.bottomappbar.BottomAppBar>
 
 
-        <!-- FloatingActionButton -->
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab"
             android:layout_width="wrap_content"
@@ -65,7 +68,6 @@
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-    <!-- Navigation Drawer -->
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"

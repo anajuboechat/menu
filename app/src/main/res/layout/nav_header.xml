@@ -15,4 +15,5 @@
         android:src="@drawable/logoamericanas"
         android:layout_gravity="center"/>
 
+
 </LinearLayout>
